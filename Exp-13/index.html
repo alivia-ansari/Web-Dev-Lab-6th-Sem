@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Multiplication Table</title>
+		<link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+		<script src="./assets/js/script.js"></script>
+	</head>
+	<body>
+		<form class="container">
+			<p><i class="fa-sharp fa-solid fa-square-xmark"></i><i class="fa-solid fa-square-divide"></i>&nbsp&nbspMultiplication Table&nbsp&nbsp&nbsp&nbsp<i class="bi bi-table"></i></p>
+			<label for="rows" class="no">Enter the Number of Rows:</label>
+			<input type="number" id="rows" name="rows" placeholder="No. of rows"><br><br>
+			<label for="cols" class="no">Enter the Number of Columns:</label>
+			<input type="number" id="cols" name="cols" placeholder="No. of columns"><br><br>
+			<input type="button" class="btn" value="Generate Table" onclick="generateTable()">
+		</form>
+		<br>
+		<div class="contain">
+			<center><table id="table"></table></center>
+		</div>
+	</body>
+</html>
+
+<i class="fa-sharp fa-solid fa-square-xmark"></i><i class="fa-solid fa-square-divide"></i>
